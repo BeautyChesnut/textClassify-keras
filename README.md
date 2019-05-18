@@ -6,3 +6,8 @@ FastText在论文[Bag of Tricks for Efficient Text Classification](https://arxiv
 <p align="center">
   <img src="image/FastText.png">
 </p>
+
+1. Using a look-up table, **bags of n-gram** convert to **word representations**.
+2. Word representations are **averaged** into a text representation, which is a hidden variable.
+3. Text representation is in turn fed to a **linear classifier**.
+4. Using the **softmax** function to compute the probability distribution over the predefined classes.（使用softmax函数计算预定义类的概率分布）
