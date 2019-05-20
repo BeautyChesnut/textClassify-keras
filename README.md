@@ -14,3 +14,4 @@ FastText 在论文 [Bag of Tricks for Efficient Text Classification](https://arx
 
 #### 1.2 此处的实现
 FastText 的网络结构：
+test
